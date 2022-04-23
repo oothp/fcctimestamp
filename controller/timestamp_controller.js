@@ -1,7 +1,4 @@
-const res = require('express/lib/response');
 const path = require('path')
-
-const TimeStampModel = require('../model/timestamp')
 
 const getTimestamp = (req, res) => {
     var utcString;
