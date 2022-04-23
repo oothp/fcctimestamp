@@ -1,5 +1,4 @@
 const res = require('express/lib/response');
-const mongoose = require('mongoose')
 const path = require('path')
 
 const TimeStampModel = require('../model/timestamp')
