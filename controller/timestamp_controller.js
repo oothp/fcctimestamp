@@ -15,7 +15,7 @@ const getTimestamp = (req, res) => {
     // not a number. valid date?
     if (isNaN(input) && !Date.parse(input)) {
         return res.json({
-            Error: "Invalid Date"
+            error: "Invalid Date"
         })
     }
 
